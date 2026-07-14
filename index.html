@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prem AI Video Studio — Faceless Reels, Shorts & YouTube Videos</title>
+  <meta name="description" content="AI-generated faceless videos for creators and businesses. Reels, YouTube Shorts, explainer clips with natural voiceover and stock footage. Powered by an open-source AI pipeline." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">Prem<span>AI</span>Video</div>
+    <nav>
+      <a href="#packages">Pricing</a>
+      <a href="#how">How it works</a>
+      <a href="#order" class="cta-nav">Order now</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badge">🎬 AI text-to-video · no watermark · delivered in 24h</div>
+      <h1>Faceless videos that<br/><span class="grad">actually get watched.</span></h1>
+      <p class="sub">Reels, YouTube Shorts, and explainer clips — narrated with natural AI voiceover, matched to stock footage, rendered in crisp 1080p. You write the script (or the idea); we ship the video.</p>
+      <div class="hero-actions">
+        <a href="#order" class="btn primary">Start an order →</a>
+        <a href="#packages" class="btn ghost">See pricing</a>
+      </div>
+      <div class="proof">
+        <span>✓ Open-source pipeline</span>
+        <span>✓ No monthly subscription</span>
+        <span>✓ Pay per video</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="usecases">
+    <h2>Who this is for</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="emoji">📱</div>
+        <h3>Content creators</h3>
+        <p>Batch-produce Reels & Shorts without filming or editing yourself.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">📺</div>
+        <h3>Faceless YouTube</h3>
+        <p>Build a cash-cow channel with narrated, footage-backed videos at scale.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🏢</div>
+        <h3>Small businesses</h3>
+        <p>Explainer and promo clips for socials — without hiring an agency.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="packages">
+    <h2>Simple pay-per-video pricing</h2>
+    <div class="pack-grid">
+      <div class="pack">
+        <h3>Starter</h3>
+        <div class="price">₹499<span>/video</span></div>
+        <ul>
+          <li>1 Reel / Short (up to 60s)</li>
+          <li>AI voiceover (your language)</li>
+          <li>Stock footage + captions</li>
+          <li>1080p MP4 delivery</li>
+        </ul>
+        <a href="#order" class="btn ghost" data-pack="Starter (₹499)">Choose Starter</a>
+      </div>
+      <div class="pack featured">
+        <div class="tag">Most popular</div>
+        <h3>Creator</h3>
+        <div class="price">₹1,999<span>/5 videos</span></div>
+        <ul>
+          <li>5 Reels / Shorts (up to 60s each)</li>
+          <li>AI voiceover + captions</li>
+          <li>Stock footage library</li>
+          <li>1080p MP4, 24h delivery</li>
+        </ul>
+        <a href="#order" class="btn primary" data-pack="Creator (₹1,999 / 5 videos)">Choose Creator</a>
+      </div>
+      <div class="pack">
+        <h3>Channel</h3>
+        <div class="price">₹7,999<span>/30 videos</span></div>
+        <ul>
+          <li>30 faceless videos / month</li>
+          <li>Voiceover + footage + edits</li>
+          <li>Consistent branding</li>
+          <li>Priority queue</li>
+        </ul>
+        <a href="#order" class="btn ghost" data-pack="Channel (₹7,999 / 30 videos)">Choose Channel</a>
+      </div>
+    </div>
+    <p class="note">Need something custom (long-form, ads, multiple languages)? Pick “Custom” in the order form.</p>
+  </section>
+
+  <section id="how" class="how">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Send your script</h3><p>Tell us the topic or paste a script. Pick a package below.</p></div>
+      <div class="step"><div class="num">2</div><h3>Pay via UPI</h3><p>We confirm the order and you pay the listed amount to our UPI ID.</p></div>
+      <div class="step"><div class="num">3</div><h3>We render</h3><p>Our AI pipeline generates voiceover, matches footage, and renders 1080p.</p></div>
+      <div class="step"><div class="num">4</div><h3>You receive video</h3><p>Final MP4 delivered to you within 24 hours.</p></div>
+    </div>
+  </section>
+
+  <section id="order" class="order">
+    <h2>Start your order</h2>
+    <p class="order-sub">Fill this in and we'll open a pre-filled WhatsApp chat with your order. Payment is via UPI — simple and instant.</p>
+    <form id="orderForm">
+      <div class="row">
+        <label>Name / Brand
+          <input type="text" id="custName" required placeholder="e.g. Rahul Creations" />
+        </label>
+        <label>WhatsApp number
+          <input type="text" id="custPhone" required placeholder="e.g. 9876543210" />
+        </label>
+      </div>
+      <div class="row">
+        <label>Package
+          <select id="packSelect">
+            <option value="Starter (₹499)">Starter — ₹499 (1 video)</option>
+            <option value="Creator (₹1,999 / 5 videos)" selected>Creator — ₹1,999 (5 videos)</option>
+            <option value="Channel (₹7,999 / 30 videos)">Channel — ₹7,999 (30 videos)</option>
+            <option value="Custom">Custom — let's discuss</option>
+          </select>
+        </label>
+        <label>Video type
+          <select id="vidType">
+            <option>Reel / Short (≤60s)</option>
+            <option>Faceless YouTube</option>
+            <option>Explainer / Promo</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </div>
+      <label>Topic or script
+        <textarea id="scriptText" rows="5" required placeholder="Paste your script, or describe the topic and we'll write it for you."></textarea>
+      </label>
+      <button type="submit" class="btn primary big">Send order on WhatsApp →</button>
+      <div class="upi">
+        <span>Pay to UPI ID:</span>
+        <code id="upiId">YOUR_UPI_ID_HERE</code>
+        <button type="button" id="copyUpi" class="btn ghost sm">Copy</button>
+      </div>
+      <p class="disclaimer">By ordering you agree this is a manual AI-assisted video service fulfilled by a human. Delivery within 24h of payment confirmation.</p>
+    </form>
+  </section>
+
+  <footer>
+    <div>© <span id="year"></span> Prem AI Video Studio · Powered by an open-source AI video pipeline (MIT).</div>
+    <div class="links">
+      <a href="https://github.com/itsPremkumar/Automated-Video-Generator" target="_blank" rel="noopener">Engine on GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
