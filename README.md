@@ -11,6 +11,8 @@ A $0, static order site that sells **faceless AI-generated videos** (Reels, YouT
 ## Live
 https://aivid-studio-rust.vercel.app
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?logo=github)](https://github.com/sponsors/itsPremkumar)
+
 ## Setup
 1. Edit `index.html`: replace `YOUR_UPI_ID_HERE` with your UPI ID.
 2. Edit `script.js`: set `WHATSAPP_NUMBER` to your number in international digits-only format (e.g. `919345568244`).

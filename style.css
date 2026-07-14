@@ -73,6 +73,9 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
 .upi code{background:var(--panel2);border:1px solid var(--line);padding:8px 14px;border-radius:8px;color:var(--accent2);font-size:15px}
 .disclaimer{margin-top:18px;font-size:12px;color:#6a6f85;text-align:center}
 
+.support{max-width:760px;margin:60px auto 0;text-align:center;border:1px solid var(--line);background:var(--panel);border-radius:18px;padding:34px}
+.support p{color:var(--muted);margin:12px 0 22px;font-size:15px}
+
 footer{display:flex;justify-content:space-between;align-items:center;padding:30px 6vw;border-top:1px solid var(--line);color:var(--muted);font-size:13px;flex-wrap:wrap;gap:10px}
 footer a:hover{color:var(--text)}
 
